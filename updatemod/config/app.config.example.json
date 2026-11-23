@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "global": {
+    "workshopDir": "D:\\steam\\steamapps\\workshop\\content\\2868840",
+    "openBrowser": true,
+    "scriptTimeoutMs": 600000
+  },
+  "templates": {
+    "sourceDir": "D:\\stsmod\\stsmods\\{mod}",
+    "dllSubPath": ".godot\\mono\\temp\\bin\\Debug",
+    "pckSourceDir": "D:\\steam\\steamapps\\workshop\\content\\2868840",
+    "steamPaksDir": "D:\\stsmod\\modmaker\\SteamMOD\\{mod}\\paks",
+    "steamScript": "D:\\stsmod\\modmaker\\SteamMOD\\{mod}\\mod_create.bat",
+    "githubDir": "D:\\stsmod\\SlayTheSpire2MODs\\mods_finished\\{mod}",
+    "githubScript": "D:\\stsmod\\SlayTheSpire2MODs\\mods_finished\\{mod}\\build.bat",
+    "jsonPath": "D:\\stsmod\\modmaker\\SteamMOD\\{mod}\\paks\\{mod}.json"
+  },
+  "mods": [
+    {
+      "id": "example-mod",
+      "name": "YourMod",
+      "enabled": true,
+      "sourceDir": "D:\\stsmod\\stsmods\\YourMod",
+      "dllSubPath": ".godot\\mono\\temp\\bin\\Debug",
+      "dllName": "YourMod.dll",
+      "pckSourceDir": "D:\\steam\\steamapps\\workshop\\content\\2868840\\1234567890",
+      "pckFiles": ["YourMod.pck"],
+      "jsonPath": "D:\\stsmod\\modmaker\\SteamMOD\\YourMod\\paks\\YourMod.json",
+      "jsonName": "",
+      "targets": [
+        {
+          "id": "example-steam",
+          "label": "SteamMOD",
+          "dir": "D:\\stsmod\\modmaker\\SteamMOD\\YourMod\\paks",
+          "script": "D:\\stsmod\\modmaker\\SteamMOD\\YourMod\\mod_create.bat",
+          "enabled": true,
+          "copyDll": true,
+          "copyPck": true,
+          "copyJson": false
+        },
+        {
+          "id": "example-github",
+          "label": "GitHub",
+          "dir": "D:\\stsmod\\SlayTheSpire2MODs\\mods_finished\\YourMod",
+          "script": "D:\\stsmod\\SlayTheSpire2MODs\\mods_finished\\YourMod\\build.bat",
+          "enabled": true,
+          "copyDll": true,
+          "copyPck": true,
+          "copyJson": true
+        }
+      ],
+      "notes": "这只是示例，字段含义见 README 的“配置文件字段”一节。"
+    }
+  ]
+}

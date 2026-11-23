@@ -1,0 +1,12 @@
+# 统一文本换行，避免 Windows 上出现整文件 diff
+* text=auto eol=lf
+
+# 这些文件必须保持原样
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.png binary
+*.jpg binary
+*.ico binary
+*.mp3 binary
+*.mp4 binary
+*.psd binary
