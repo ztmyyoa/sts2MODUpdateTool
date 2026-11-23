@@ -1,7 +1,0 @@
-node_modules/
-out/
-.remotion/
-.idea/
-.vscode/
-*.log
-*.iml

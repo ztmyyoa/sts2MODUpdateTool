@@ -20,3 +20,6 @@ Thumbs.db
 *.log
 *.tmp
 dsh-*.txt
+
+# 介绍视频（只留在本机，不进仓库）
+/intro-video/
