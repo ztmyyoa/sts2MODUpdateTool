@@ -4,6 +4,9 @@
 「一键更新」，它就把文件复制到 Steam MOD 目录和 GitHub 仓库目录，再顺手跑那两个上传脚本，日志实时刷在新窗口里。
 
 纯本地运行，不联网、不上传任何数据，不依赖 Electron（就是一个 Node 小服务和一张网页）。
+
+介绍视频：<https://www.bilibili.com/video/BV1GQySzoEuM/>
+
 界面截图：
 ![img.png](img.png)
 ```

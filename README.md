@@ -14,6 +14,10 @@
 
 ![界面截图](updatemod/img.png)
 
+## 介绍视频
+
+B 站：<https://www.bilibili.com/video/BV1GQySzoEuM/>（一分多钟，讲它省掉了哪些步骤、怎么开始用）
+
 ## 快速开始（工具本体）
 
 ```bash
